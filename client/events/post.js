@@ -4,14 +4,14 @@
 Template.post.events({
     "submit form": function (event, template) {
         event.preventDefault();
-        var message = event.target.message,
-            posts = Session.get('posts') || [];
+        var message = event.target.message;
 
-        posts.push({
+        if (!message.value) return;
+
+        Posts.insert({
             message: message.value
         });
 
-        Session.set('posts', posts);
         message.value = '';
 
     }
