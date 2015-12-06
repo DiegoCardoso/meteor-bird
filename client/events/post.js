@@ -8,9 +8,7 @@ Template.post.events({
 
         if (!message.value) return;
 
-        Posts.insert({
-            message: message.value
-        });
+        Posts.publish(message.value);
 
         message.value = '';
 
