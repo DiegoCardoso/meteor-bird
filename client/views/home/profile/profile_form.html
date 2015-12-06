@@ -1,0 +1,13 @@
+<template name="profileForm">
+    <form action="" class="form-horizontal">
+        <input type="text" class="form-control" name="name"
+               value="{{currentUser.profile.name}}"
+               placeholder="Nome">
+        <input type="text" class="form-control"
+               name="about"
+               value="{{currentUser.profile.about}}"
+               placeholder="Descrição">
+        <button type="submit" class="btn btn-success">Atualizar</button>
+        <button type="button" class="btn btn-block">Cancelar</button>
+    </form>
+</template>
