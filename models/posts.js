@@ -3,11 +3,12 @@
  */
 Posts = new Mongo.Collection('posts');
 
-Posts.publish = function (message) {
+Posts.publish = function (post) {
     this.insert({
-        message: message,
+        message: post.message,
         date: new Date(),
-        userId: Meteor.userId()
+        userId: Meteor.userId(),
+        name: post.name
     });
 }
 

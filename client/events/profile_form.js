@@ -10,15 +10,10 @@ Template.profileForm.events({
         name = form.name.value;
         about = form.about.value;
 
-        Meteor.users.update(
-            {_id: Meteor.userId()},
-            {
-                $set: {
-                    'profile.name': name,
-                    'profile.about': about
-                }
-            }
-        )
+        Meteor.call('profileUpdate', {
+            name: name,
+            about: about
+        });
 
         Session.set('editProfile', false);
 
