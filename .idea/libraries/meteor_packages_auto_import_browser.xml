@@ -89,6 +89,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/login_buttons_session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/export_globals.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ja.i18n.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/import_globals.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt.i18n.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ar.i18n.js" />
@@ -102,6 +103,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/.npm/package/node_modules/es5-shim/es5-shim.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />
@@ -280,6 +282,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/login_buttons_session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/export_globals.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ja.i18n.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/import_globals.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt.i18n.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ar.i18n.js" />
@@ -293,6 +296,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.1.14/web.browser/.npm/package/node_modules/es5-shim/es5-shim.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />

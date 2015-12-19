@@ -23,3 +23,11 @@ Friendships.isFollowing = function (friendId) {
         friendId: friendId
     });
 };
+
+Friendships.followings = function (userId) {
+    return this.find({userId: userId}).count();
+};
+
+Friendships.followers = function (friendId) {
+    return this.find({friendId: friendId}).count();
+};

@@ -12,7 +12,9 @@ Router.route('user/:_id', function () {
 
             return {
                 user: Meteor.users.findOne({_id:_id}),
-                posts:Posts.list(_id)
+                posts:Posts.list(_id),
+                followers: Friendships.followers(_id),
+                followings: Friendships.followings(_id)
             };
         }
     });
