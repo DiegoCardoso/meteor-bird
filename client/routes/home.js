@@ -4,9 +4,10 @@
 Router.route('/', function () {
     this.render('home', {
         data: function () {
-            var _id = Meteor.userId();
+            var _id = Meteor.userId(),
+                timelineIds = Friendships.timelineIds(_id);
             return {
-                posts: Posts.list(_id),
+                posts: Posts.list(timelineIds),
                 followers: Friendships.followers(_id),
                 followings: Friendships.followings(_id)
             }
